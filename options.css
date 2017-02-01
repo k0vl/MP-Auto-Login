@@ -1,0 +1,163 @@
+.option-label {
+  display: inline-block;
+  width: 80px;
+  font-weight: bold;
+}
+
+.option {
+    margin: 20px 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #232a2a;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ecf0f0;
+  border-bottom: 1px solid white;
+  margin: 20px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+a {
+  cursor: pointer;
+  color: #4ab367;
+  text-decoration: none
+}
+
+h1 {
+  color: #4ab367;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+a:hover {
+  color: #4ab367;
+}
+
+#header {
+  position: relative;
+  overflow: hidden;
+  background-color: #4ab367;
+  padding: 15px 15px 0 15px;
+  color: white;
+  z-index: 200;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
+}
+
+#logo {
+  background-image: url(logo.png);
+  background-size: 264px 50px;
+  width: 264px;
+  height: 50px;
+}
+
+#logo-link {
+  cursor: pointer;
+  display: inline-block;
+}
+
+#logo-link:focus {
+  outline: none;
+}
+
+#title {
+  float: left;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+textarea,
+input[type="text"],
+input[type="password"] {
+  font-family: Helvetica Neue, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  width: 200px;
+  resize: none;
+  border: 1px solid rgb(220, 220, 220);
+  border-bottom: 1px solid #ecf0f0;
+  color: #232a2a;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 15px;
+  margin: auto;
+}
+
+button {
+  cursor: pointer;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  background-color: #6ec07c;
+  padding: 10px 15px;
+  border-radius: 2px;
+  border: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+button:hover {
+  background-color: #4ab367;
+}
+
+button:focus,
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none;
+}
+
+button.gray {
+  background-color: #95a5a6;
+}
+
+button:hover.gray {
+  background-color: #5c6868;
+}
+
+.inner {
+  width: 700px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.one-line {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bold {
+  font-weight: bold;
+}
